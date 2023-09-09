@@ -33,9 +33,9 @@
 - First model was built with 3 convolutional layers and 1 dense layer. The model was overfitting. To reduce overfitting, more images with augmentation were used. 
 - Second model was built with 3 convolutional layers and 1 dense layer along with the augmented images. The model was able to handle overfitting. However the accuracy was not good.
 - There was a class imbalance in the dataset. To handle this, augmentated images were used to balance the dataset such that each class has 500 images. This was achieved using Augmentor library.  
-![class imbalance](image-1.png)
+![class imbalance](https://github.com/robinsonrajan/Melanoma-Detection-Assignment/blob/main/CNN%20Readme%20Image/class%20imbalance.png)
 - Third model was built with 3 convolutional layers and 1 dense layer along with the augmented images. The model was able to handle overfitting and the accuracy was good.  
-![Training and Validation Accuracy](image.png)
+![Training and Validation Accuracy](https://github.com/robinsonrajan/Melanoma-Detection-Assignment/blob/main/CNN%20Readme%20Image/Training%20and%20Validation%20loss.png)
 
 
 ## Technologies Used
